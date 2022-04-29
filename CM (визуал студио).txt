@@ -1,0 +1,41 @@
+using System;
+
+namespace GM
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 25;
+            int z = 50;
+            int sum = x * z;
+            Console.WriteLine(sum);
+            
+            Console.Write("База данных для принятия на работу:\n");
+
+            Console.Write("Имя: ");
+            string name = Console.ReadLine();
+            Console.Write("Фамилия: ");
+            string surname = Console.ReadLine();
+            Console.Write("Отчество: ");
+            string patronymic = Console.ReadLine();
+            Console.Write("Возраст: ");
+            string age = Console.ReadLine();
+            Console.Write("Колледж или Институт: ");
+            string institution = Console.ReadLine();
+            Console.Write("Специальность: ");
+            string speciality = Console.ReadLine();
+
+            string имя = "Madina";
+            string фамилия = "Gorbunova";
+            string отчество = "Kayratovna";
+            int возраст = 18;
+            double рост = 1.65;
+            Console.WriteLine($"Имя: {name} Фамилия: {surname} Отчество: {patronymic}  Возраст: {age}  Рост: {рост}м");
+
+            Console.ReadKey();
+           
+
+        }
+    }
+}
